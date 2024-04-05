@@ -1,0 +1,48 @@
+::before,
+::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,
+.hero-container,
+.information-container,
+.quote-container,
+.footer {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 72px;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+    gap: 65em;
+
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 2em;
+}
+
+li,
+a {
+    text-decoration: none;
+    list-style: none;
+    color: #F9FAF8;
+    font-size: 18px;
+    
+}
