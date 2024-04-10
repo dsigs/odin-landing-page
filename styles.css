@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: red solid 1px;
 }
 
 .header,
@@ -146,23 +145,46 @@ a {
     text-align: end;
     color: #1F2937;
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .cta-container {
     height: 300px;
-    background-color: greenyellow;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .cta-signup-container {
-    width: 1000px;
-    height: 150px;
+    display: flex;
+    width: 1242px;
+    height: 160px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 14px;
+}
+
+.cta-heavy {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.cta-heavy,
+.cta-light {
+    color: white;
+}
+
+.cta-signup {
+    border: 1px solid white;
 }
 
 .footer {
     height: 64px;
-    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
